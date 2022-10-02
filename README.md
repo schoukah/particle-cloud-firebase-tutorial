@@ -9,11 +9,11 @@ Particle Cloud à Google Firebase. Il est basé sur le tutoriel de
 Les deux autres tutoriels ayant servi à la construction de celui-ci
 sont:
 
-- ![Cloud Functions: moving data from Pubsub to Firebase Cloud Firestore
+- [Cloud Functions: moving data from Pubsub to Firebase Cloud Firestore
   in TypeScript](https://www.youtube.com/watch?v=3Zohd6U6CL8) de
-  ![D-I-Ry](https://www.youtube.com/channel/UCMHvK9tare9Y9O152C9wm3Q).
-- ![Tutorial: Set up Particle Cloud, Google Cloud, and Firestore! - Part
-  1](https://www.youtube.com/watch?v=ON_3hfPOuyI&t=595s) de ![Nordic
+  [D-I-Ry](https://www.youtube.com/channel/UCMHvK9tare9Y9O152C9wm3Q).
+- [Tutorial: Set up Particle Cloud, Google Cloud, and Firestore! - Part
+  1](https://www.youtube.com/watch?v=ON_3hfPOuyI&t=595s) de [Nordic
   Cloud Labs](https://www.youtube.com/channel/UCVUrqGCjyOB60kdr4wGzGiQ).
 
 
