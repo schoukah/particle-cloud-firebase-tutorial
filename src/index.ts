@@ -1,11 +1,11 @@
-import * as functions from "firebase-functions";
-
+import * as functions from "firebase-functions/v1";
 import * as admin from "firebase-admin";
+
 admin.initializeApp();
 
 exports.insertFromPubSub = functions.pubsub
     .topic("humitemp")
-    .onPublish((message, context) => {
+    .onPublish((message: functions.pubsub.Message, context: functions.EventContext) => {
       console.log("message triggered at", context.timestamp);
       const messageBody = message.data ?
       Buffer.from(message.data, "base64").toString() : null;
